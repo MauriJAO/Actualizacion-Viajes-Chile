@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: "Raleway", sans-serif;
+    color: #ffffff;
+}
+
+.logo img{
+    width: 30px;
+}
+
+.card{
+    width: 17rem !important;
+    padding: 0;
+}
+
+.card img{
+    border-radius: 5px;
+}
+
+
+.logo h3{
+    margin-bottom: 0;
+}
+
+i{
+    font-size: 25px;
+    padding-right: 10px;
+}
+   
+html {
+    scroll-behavior: smooth;
+}
+
+.about__img{
+    width: 50%;
+}
+
+#carouselExampleControls{
+    height: 300px;
+}
+
+#carouselExampleControls img{
+    height: 300px !important;
+}
+
+@media screen and (min-width: 720px){ 
+    #carouselExampleControls {
+        height: 500px;
+    }
+    
+    #carouselExampleControls img {
+        height: 500px !important;
+    }
+
+    .card{
+        width: 33rem !important;
+
+        .img-fluid{
+            height: 100%;
+        }
+    }
+}
